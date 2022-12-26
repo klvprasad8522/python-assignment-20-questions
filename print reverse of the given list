@@ -1,0 +1,6 @@
+l=[]
+n=int(input())
+test_list=list(map(int,input().split()))
+x = test_list.reverse()
+
+print(test_list) 
