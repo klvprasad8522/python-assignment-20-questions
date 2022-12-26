@@ -1,0 +1,13 @@
+myList = [9, 1, 5, 9, 4, 2, 7, 2, 9, 5, 3]
+uniqueList = []
+ 
+for item in myList :
+    itemExist = False
+    for x in uniqueList :
+        if x == item :
+            itemExist = True
+            break
+    if not itemExist :
+        uniqueList.append(item)
+
+print(uniqueList)
