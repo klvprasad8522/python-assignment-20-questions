@@ -1,0 +1,8 @@
+
+import cmath
+a = int(input('enteer a number:'))
+x=cmath.sqrt(a)
+if x>10:
+    print('Hello')
+else:
+    print('Hii')
